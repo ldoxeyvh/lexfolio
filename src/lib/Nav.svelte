@@ -1,11 +1,8 @@
 <script lang="ts">
+ import type { Page } from '$lib/types'
+
  interface Props {
      pages: Page[]
- }
-
- interface Page {
-     label: string;
-     route: string;
  }
 
  let { pages }: Props = $props();
