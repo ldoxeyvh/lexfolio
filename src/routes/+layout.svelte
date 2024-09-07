@@ -13,11 +13,13 @@
  const footerPages = navPages
 </script>
 
-<Nav pages={navPages} />
+<div class="min-h-screen flex flex-col">
+    <Nav pages={navPages} />
 
-<slot />
+    <main class="flex-grow p-8"><slot /></main>
 
-<Footer pages={footerPages} />
+    <Footer pages={footerPages} />
+</div>
 
 <style>
  :global(html) {
