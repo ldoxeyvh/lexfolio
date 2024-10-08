@@ -1,3 +1,0 @@
-* TODO
-- [ ] switch nav classes to be mobile-first
-- [ ]
