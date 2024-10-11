@@ -1,5 +1,6 @@
 <script>
- let count = $state(0);
+    import Repel from '$lib/Repel.svelte';
+    let count = $state(0);
 </script>
 
 <button onclick={() => count++}>
@@ -8,3 +9,5 @@
 <button onclick={() => {count=0}}>
     dont click me >:(
 </button>
+
+<Repel />

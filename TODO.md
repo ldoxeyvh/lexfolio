@@ -1,9 +1,11 @@
 - [Tasks](#tasks)
   - [Mobile](#mobile)
   - [Projects Page(s)](#projects-pages)
+  - [Interactivity/Animations](#interactivityanimations)
   - [Misc](#misc)
   - [Completed](#completed)
-- [another thing](#another-thing)
+- [Links!](#links)
+  - [Docs](#docs)
 
 # Tasks
 
@@ -11,10 +13,15 @@
   - come up with basic mobile design
   - implement basic mobile design for `graphic design` page
   - convert current pages/components to mobile-first responsive
+
 ## Projects Page(s)
   - implement projects pages
     - projects home page
     - projects sub pages
+
+## Interactivity/Animations
+  - [Konva](https://konvajs.org/docs/overview.html)
+
 ## Misc
   - figure out image hosting
   - play around with a `canvas` element (reactive to cursor)
@@ -24,4 +31,9 @@
 ## Completed
 
 
-# another thing
+# Links!
+
+## Docs
+  - [Svelte 5 pre-release docs](https://svelte-5-preview.vercel.app/docs/introduction)
+  - [Konva docs](https://konvajs.org/docs/overview.html)
+  - [svg.js](https://konvajs.org/docs/overview.html)
