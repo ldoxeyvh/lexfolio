@@ -1,6 +1,6 @@
 <script lang="ts">
  const imageModules = import.meta.glob(
-     '$lib/images/*',
+     '$lib/images/*{.jpg,png,jpeg,gif}',
      {
          eager: true,
          query: {
