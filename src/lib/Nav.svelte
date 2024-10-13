@@ -15,7 +15,12 @@
         </div>
         <ul class="flex space-x-4 h-full">
             {#each pages as page: Page}
-                <li class=""><a class="hover:text-orange-400" href={page.route}>{page.label}</a></li>
+                {#if page.route == "/"}
+                    <li class=""><a data-sveltekit-preload-data="off" class="hover:text-orange-400" 
+                        href={page.route}>{page.label}</a></li>
+                {:else}
+                    <li class=""><a class="hover:text-orange-400" href={page.route}>{page.label}</a></li>
+                {/if}
             {/each}
         </ul>
     </div>
