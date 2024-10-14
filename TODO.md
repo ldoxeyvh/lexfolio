@@ -29,12 +29,14 @@
 
 ## Misc
   - figure out image hosting
-
+  - provide fontawesome [appropriate credit](https://creativecommons.org/licenses/by/4.0/)
   - import real AJD logo on page
-  - get footer icons
+  - get parallax effect working with background elements
+  
 
 ## Completed
   - ~~play around with a `canvas` element (reactive to cursor)~~
+  - ~~get footer icons~~
 
 # Links!
 
@@ -42,3 +44,4 @@
   - [Svelte 5 pre-release docs](https://svelte-5-preview.vercel.app/docs/introduction)
   - [Konva docs](https://konvajs.org/docs/overview.html)
   - [svg.js](https://konvajs.org/docs/overview.html)
+  - [parallax.js](https://matthew.wagerfield.com/parallax/)
