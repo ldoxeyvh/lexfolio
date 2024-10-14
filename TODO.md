@@ -1,3 +1,5 @@
+# Table of Contents
+- [Table of Contents](#table-of-contents)
 - [Tasks](#tasks)
   - [Mobile](#mobile)
   - [Projects Page(s)](#projects-pages)
