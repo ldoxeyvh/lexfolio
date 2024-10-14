@@ -22,7 +22,7 @@
 </div>
 
 <style>
- :global(html) {
-     @apply bg-amber-50
- }
+    :global(html) {
+        @apply bg-amber-50
+    }
 </style>
