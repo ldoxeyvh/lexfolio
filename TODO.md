@@ -29,6 +29,8 @@
 
 ## Misc
   - figure out image hosting
+  - add transition animations to page navigation
+  - add hover animation to nav buttons
   - provide fontawesome [appropriate credit](https://creativecommons.org/licenses/by/4.0/)
   - import real AJD logo on page
   - get parallax effect working with background elements
