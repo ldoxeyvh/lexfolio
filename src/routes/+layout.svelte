@@ -2,6 +2,7 @@
  import '../app.css'
  import Nav from '$lib/Nav.svelte';
  import Footer from '$lib/Footer.svelte';
+ import { onNavigate } from '$app/navigation';
 
  const navPages = [
      { label: "home", route: "/" },
@@ -11,6 +12,17 @@
  ]
 
  const footerPages = navPages
+
+ onNavigate((navigation) => {
+    if (!document.startViewTransition) return;
+
+    return new Promise((resolve) => {
+        document.startViewTransition(async () => {
+            resolve();
+            await navigation.complete;
+        })
+    });
+ });
 </script>
 
 <div class="min-h-screen flex flex-col">
