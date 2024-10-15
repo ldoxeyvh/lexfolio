@@ -32,7 +32,8 @@
   - provide fontawesome [appropriate credit](https://creativecommons.org/licenses/by/4.0/)
   - import real AJD logo on page
   - get parallax effect working with background elements
-  
+  - make desktop columns smaller (mid-size screen?)
+  - make portfolio images clickable/expandable (ViewBox or whatever)
 
 ## Completed
   - ~~play around with a `canvas` element (reactive to cursor)~~
