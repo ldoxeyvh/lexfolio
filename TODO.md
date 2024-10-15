@@ -1,15 +1,14 @@
-# Table of Contents
-- [Table of Contents](#table-of-contents)
+# Tasks
+
+## Table of Contents
 - [Tasks](#tasks)
+  - [Table of Contents](#table-of-contents)
   - [Mobile](#mobile)
   - [Projects Page(s)](#projects-pages)
   - [Interactivity/Animations](#interactivityanimations)
   - [Misc](#misc)
+  - [Links!](#links)
   - [Completed](#completed)
-- [Links!](#links)
-  - [Docs](#docs)
-
-# Tasks
 
 ## Mobile
   - come up with basic mobile design
@@ -26,23 +25,25 @@
   - debug unmoving svg on home page reload from another page 
     - this may be a preload optimization issue, could try further with onMount to ensure
       reactivity gets loaded after navigation to the page?
+  - get parallax effect working with background elements
 
 ## Misc
   - figure out image hosting
   - provide fontawesome [appropriate credit](https://creativecommons.org/licenses/by/4.0/)
   - import real AJD logo on page
-  - get parallax effect working with background elements
   - make desktop columns smaller (mid-size screen?)
   - make portfolio images clickable/expandable (ViewBox or whatever)
+  - prevent image scraping on search engines
+  - prevent images from being pulled directly from site?
 
-## Completed
-  - ~~play around with a `canvas` element (reactive to cursor)~~
-  - ~~get footer icons~~
+## Links!
 
-# Links!
-
-## Docs
+- Docs
   - [Svelte 5 pre-release docs](https://svelte-5-preview.vercel.app/docs/introduction)
   - [Konva docs](https://konvajs.org/docs/overview.html)
   - [svg.js](https://konvajs.org/docs/overview.html)
   - [parallax.js](https://matthew.wagerfield.com/parallax/)
+
+## Completed
+  - ~~play around with a `canvas` element (reactive to cursor)~~
+  - ~~get footer icons~~
