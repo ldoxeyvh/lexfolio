@@ -10,7 +10,7 @@
  let { pages = [] }: Props = $props();
 </script>
 
-<footer class="bg-neutral-50 bottom-0 w-full lg:h-32">
+<footer class="rounded-full bg-orange-500 bottom-0 m-1 lg:h-32">
     <div class="lg:columns-3 lg:m-5">
         <div class="lg:place-content-center">
             <a class="inline-block" href="https://www.instagram.com/alexseydc/profilecard/?igsh=dWRtcnN6Y2x6ZjRy">

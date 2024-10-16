@@ -11,7 +11,7 @@
     let currentPathname = $derived($page.url.pathname);
 </script>
 
-<nav class="bg-green-100 lg:p-4">
+<nav class="bg-amber-400 rounded-full m-1 lg:p-4">
     <div class="container mx-auto flex justify-between items-center">
         <div class="text-lg font-bold flex lg:space-x-4">
             <a href="">AJD</a>

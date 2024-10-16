@@ -11,7 +11,7 @@
   - [Completed](#completed)
 
 ## Mobile
-  - come up with basic mobile design
+  - refactor home page to mobile first on new design
   - implement basic mobile design for `graphic design` page
   - convert current pages/components to mobile-first responsive
 
@@ -37,6 +37,7 @@
   - make portfolio images clickable/expandable (ViewBox or whatever)
   - prevent image scraping on search engines
   - prevent images from being pulled directly from site?
+  - Google Fonts!
 
 ## Links!
 
@@ -49,3 +50,4 @@
 ## Completed
   - ~~play around with a `canvas` element (reactive to cursor)~~
   - ~~get footer icons~~
+  - ~~come up with basic mobile design~~

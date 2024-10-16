@@ -1,29 +1,34 @@
 <script lang="ts">
- import '../app.css'
- import Nav from '$lib/Nav.svelte';
- import Footer from '$lib/Footer.svelte';
- import { onNavigate } from '$app/navigation';
+    import '../app.css'
+    import Nav from '$lib/Nav.svelte';
+    import Footer from '$lib/Footer.svelte';
+    import { onNavigate } from '$app/navigation';
 
- const navPages = [
-     { label: "home", route: "/" },
-     { label: "graphic design", route: "/graphic-design" },
-     { label: "projects", route: "/projects"  },
-     { label: "about me", route: "/about-me" }
- ]
+    const navPages = [
+        { label: "home", route: "/" },
+        { label: "graphic design", route: "/graphic-design" },
+        { label: "projects", route: "/projects"  },
+        { label: "about me", route: "/about-me" }
+    ]
 
- const footerPages = navPages
+    const footerPages = navPages
 
- onNavigate((navigation) => {
-    if (!document.startViewTransition) return;
+    // 'animation' when navigating between pages
+    onNavigate((navigation) => {
+        if (!document.startViewTransition) return;
 
-    return new Promise((resolve) => {
-        document.startViewTransition(async () => {
-            resolve();
-            await navigation.complete;
-        })
+        return new Promise((resolve) => {
+            document.startViewTransition(async () => {
+                resolve();
+                await navigation.complete;
+            })
+        });
     });
- });
 </script>
+
+<svelte:head>
+    <link href="" rel="stylesheet">
+</svelte:head>
 
 <div class="min-h-screen flex flex-col">
     <Nav pages={navPages} />
@@ -35,6 +40,6 @@
 
 <style>
     :global(html) {
-        @apply bg-amber-50
+        @apply bg-neutral-50
     }
 </style>
