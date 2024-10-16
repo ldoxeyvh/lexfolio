@@ -7,7 +7,8 @@
     }
 
     let { pages }: Props = $props();
-    let currentPathname = $state($page.url.pathname);
+    // subscribes to page store
+    let currentPathname = $derived($page.url.pathname);
 </script>
 
 <nav class="bg-green-100 lg:p-4">
