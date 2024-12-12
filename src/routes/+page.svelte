@@ -10,6 +10,4 @@
     dont click me >:(
 </button>
 
-<p style="font-family: 'Nabla', system-ui;">testing font</p>
-
-<Repel />
+<h1 class="font-nabla text-7xl text-white text-outline triple-shadow">ALEXSEY DACOSTA</h1>
