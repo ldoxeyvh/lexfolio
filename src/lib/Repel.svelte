@@ -62,7 +62,7 @@
     }
 </style>
 
-<svelte:window on:mousemove={handleMouseMove} />
+<svelte:window onmousemove={handleMouseMove} />
 
 {#if $smoothSvgPosition}
     <!-- <svg

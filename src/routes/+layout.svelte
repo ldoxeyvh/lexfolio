@@ -30,10 +30,10 @@
     <link href="" rel="stylesheet">
 </svelte:head>
 
-<div class="min-h-screen flex flex-col m-2">
+<div class="min-h-screen p-2">
     <Nav pages={navPages} />
 
-    <main class="flex-grow p-8"><slot /></main>
+    <main class=""><slot /></main>
 
     <Footer pages={footerPages} />
 </div>

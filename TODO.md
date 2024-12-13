@@ -26,6 +26,7 @@
     - this may be a preload optimization issue, could try further with onMount to ensure
       reactivity gets loaded after navigation to the page?
   - get parallax effect working with background elements
+  - expanding triple-shadow on hover for home page
 
 ## Misc
   - figure out image hosting
