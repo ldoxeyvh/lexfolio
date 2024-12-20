@@ -14,17 +14,22 @@
 </script>
 
 <!-- mobile nav -->
-<nav class="grid grid-cols-3 p-2 h-16 sm:hidden bg-emerald-200 rounded-xl">
-    <a class="flex items-center" href="/">
+<nav class="grid grid-cols-2 p-2 h-16 bg-emerald-200 rounded-xl w-full">
+    <a class="flex items-center gap-2" href="/">
         <img class="h-10" src="{Flower}" alt="flower logo">
-        
+        <span class="place-self-center font-league-spartan font-medium leading-4">Alexsey daCosta</span>
     </a>
-    <span class="place-self-center font-league-spartan font-medium leading-4">Alexsey daCosta</span>
-    <span class="ml-auto self-center">ham</span>
+    <div class="flex flex-row-reverse gap-8 items-center">
+        <span class="ml-auto self-center lg:hidden">ham</span>
+        <a href="/about-me" class="hidden font-league-spartan font-semibold lg:block">about me</a>
+        <a href="/portfolio" class="hidden font-league-spartan font-semibold lg:block">portfolio</a>
+        <a href="/projects" class="hidden font-league-spartan font-semibold lg:block">projects</a>
+    </div>
+
 </nav>
 
 <!-- desktop nav (sm and above) -->
-<nav class="hidden sm:block bg-amber-400 rounded-full m-1 lg:p-4">    
+<!-- <nav class="hidden sm:block bg-amber-400 rounded-full m-1 lg:p-4">    
     <div class="container mx-auto flex justify-between items-center">
         <div class=" text-lg font-bold flex lg:space-x-4">
             <a href="">Alexsey daCosta</a>
@@ -43,6 +48,6 @@
             {/each}
         </ul>
     </div>    
-</nav>
+</nav> -->
 
 

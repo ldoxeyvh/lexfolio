@@ -1,6 +1,6 @@
 <script>
     import Popout from "$lib/Popout.svelte";
-    import Placeholder from "$lib/assets/mifreshwater.jpg"
+    import Placeholder from "$lib/assets/portfolio/mifreshwater.jpg"
 </script>
 
 <div class="grid grid-cols-2 mt-10 gap-5 m-5">

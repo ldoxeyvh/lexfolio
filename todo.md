@@ -4,6 +4,7 @@
 - [Tasks](#tasks)
   - [Table of Contents](#table-of-contents)
   - [Mobile](#mobile)
+- [Desktop](#desktop)
   - [Projects Page(s)](#projects-pages)
   - [Interactivity/Animations](#interactivityanimations)
   - [Nav](#nav)
@@ -14,6 +15,9 @@
   - refactor home page to mobile first on new design
   - implement basic mobile design for `graphic design` page
   - convert current pages/components to mobile-first responsive
+
+# Desktop
+  - convert mobile pages to desktop
 
 ## Projects Page(s)
   - implement projects pages
@@ -26,7 +30,7 @@
   - debug unmoving svg on home page reload from another page 
     - this may be a preload optimization issue, could try further with onMount to ensure
       reactivity gets loaded after navigation to the page?
-  - expanding triple-shadow on hover for home page
+  - expanding triple-shadow on hover for home page using css transitions
   - hamburger drop down turns nav yellow and expands down on mobile
   - repelling/springy star-type background on desktop
 
