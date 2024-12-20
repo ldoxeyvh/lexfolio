@@ -1,3 +1,5 @@
+@import "../static/fonts.css";
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -18,8 +20,17 @@
     filter: drop-shadow(5px 5px orange)
 }
 
+.text-triple-shadow {
+    filter: 
+            drop-shadow(4px 4px var(--orange-500)) /* removed */
+            drop-shadow(4px 4px var(--amber-400))
+            drop-shadow(4px 4px var(--emerald-200))
+}
+
 .triple-shadow {
-    filter: drop-shadow(4px 4px var(--orange-500))
+    background-color: var(--orange-500);
+    filter: 
+            /* drop-shadow(4px 4px var(--orange-500)) */ /* removed */
             drop-shadow(4px 4px var(--amber-400))
             drop-shadow(4px 4px var(--emerald-200))
 }
@@ -27,25 +38,3 @@
 .popout-orange-500 {
     filter: drop-shadow(0px 4px lightgrey)
 }
-/* ***** */
-/* FONTS */
-/* ***** */
-/* nabla-latin-400-normal */
-@font-face {
-    font-family: 'Nabla';
-    font-style: normal;
-    font-display: swap;
-    font-weight: 400;
-    src: url(https://cdn.jsdelivr.net/fontsource/fonts/nabla@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/nabla@latest/latin-400-normal.woff) format('woff');
-    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
-  }
-
-/* league-spartan-latin-900-normal */
-@font-face {
-    font-family: 'League Spartan';
-    font-style: normal;
-    font-display: swap;
-    font-weight: 900;
-    src: url(https://cdn.jsdelivr.net/fontsource/fonts/league-spartan@latest/latin-900-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/league-spartan@latest/latin-900-normal.woff) format('woff');
-    unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD;
-  }

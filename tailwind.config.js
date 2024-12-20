@@ -5,7 +5,7 @@ export default {
     extend: {
       fontFamily: {
         'nabla': ["'Nabla'", 'system-ui'],
-        'league-spartan': ["'League Spartan'", 'system-ui'],
+        'league-spartan': ["'League Spartan Variable'", 'system-ui'],
         'inter': ['Inter', 'system-ui']
       }
     },

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import type { Page } from '$lib/types'
+    import type { Page } from '$lib/shared'
     import { page } from '$app/stores';
 
     import Flower from '$lib/assets/testflower-01.svg';
@@ -14,12 +14,13 @@
 </script>
 
 <!-- mobile nav -->
-<nav class="drop-shadow p-2 h-16 flex flex-row sm:hidden bg-emerald-200 rounded-xl">
-    <a class="flex flex-row basis-1/2" href="/">
-        <img class="basis-1/2" src="{Flower}" alt="flower logo">
-        <span class="justify-self-center">Alexsey daCosta</span>
+<nav class="grid grid-cols-3 p-2 h-16 sm:hidden bg-emerald-200 rounded-xl">
+    <a class="flex items-center" href="/">
+        <img class="h-10" src="{Flower}" alt="flower logo">
+        
     </a>
-    <span class="ml-auto">ham</span>
+    <span class="place-self-center font-league-spartan font-medium leading-4">Alexsey daCosta</span>
+    <span class="ml-auto self-center">ham</span>
 </nav>
 
 <!-- desktop nav (sm and above) -->

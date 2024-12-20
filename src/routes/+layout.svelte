@@ -33,7 +33,7 @@
 <div class="min-h-screen p-2">
     <Nav pages={navPages} />
 
-    <main class=""><slot /></main>
+    <main class="min-h-svh"><slot /></main>
 
     <Footer pages={footerPages} />
 </div>

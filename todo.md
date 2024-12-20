@@ -6,9 +6,9 @@
   - [Mobile](#mobile)
   - [Projects Page(s)](#projects-pages)
   - [Interactivity/Animations](#interactivityanimations)
+  - [Nav](#nav)
   - [Misc](#misc)
   - [Links!](#links)
-  - [Completed](#completed)
 
 ## Mobile
   - refactor home page to mobile first on new design
@@ -19,14 +19,20 @@
   - implement projects pages
     - projects home page
     - projects sub pages
+  - make a project item component for ease of adding new projects
 
 ## Interactivity/Animations
   - [Konva](https://konvajs.org/docs/overview.html)
   - debug unmoving svg on home page reload from another page 
     - this may be a preload optimization issue, could try further with onMount to ensure
       reactivity gets loaded after navigation to the page?
-  - get parallax effect working with background elements
   - expanding triple-shadow on hover for home page
+  - hamburger drop down turns nav yellow and expands down on mobile
+  - repelling/springy star-type background on desktop
+
+## Nav
+  - basic placeholder hamburger menu on mobile
+  - 
 
 ## Misc
   - figure out image hosting
@@ -38,7 +44,6 @@
   - make portfolio images clickable/expandable (ViewBox or whatever)
   - prevent image scraping on search engines
   - prevent images from being pulled directly from site?
-  - Google Fonts!
 
 ## Links!
 
@@ -47,8 +52,3 @@
   - [Konva docs](https://konvajs.org/docs/overview.html)
   - [svg.js](https://konvajs.org/docs/overview.html)
   - [parallax.js](https://matthew.wagerfield.com/parallax/)
-
-## Completed
-  - ~~play around with a `canvas` element (reactive to cursor)~~
-  - ~~get footer icons~~
-  - ~~come up with basic mobile design~~
