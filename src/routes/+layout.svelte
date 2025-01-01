@@ -30,7 +30,7 @@
     <link href="" rel="stylesheet">
 </svelte:head>
 
-<div class="grid drop-shadow-2xl justify-items-center p-2 m-auto max-w-[110rem] bg-neutral-50">
+<div class="grid drop-shadow-2xl justify-items-center m-auto max-w-[110rem] rounded-xl bg-neutral-50">
     <Nav pages={navPages} />
 
     <main class="min-h-svh"><slot /></main>

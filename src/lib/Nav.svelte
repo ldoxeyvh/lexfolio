@@ -14,16 +14,16 @@
 </script>
 
 <!-- mobile nav -->
-<nav class="grid grid-cols-2 p-2 h-16 bg-emerald-200 rounded-xl w-full">
+<nav class="grid grid-cols-2 p-2 h-16 bg-orange-400 rounded-t-xl w-full">
     <a class="flex items-center gap-2" href="/">
         <img class="h-10" src="{Flower}" alt="flower logo">
-        <span class="place-self-center font-league-spartan font-medium leading-4">Alexsey daCosta</span>
+        <span class="place-self-center font-league-spartan font-semibold text-white text-xl leading-4">Alexsey daCosta</span>
     </a>
     <div class="flex flex-row-reverse gap-8 items-center">
         <span class="ml-auto self-center lg:hidden">ham</span>
-        <a href="/about-me" class="hidden font-league-spartan font-semibold lg:block">about me</a>
-        <a href="/portfolio" class="hidden font-league-spartan font-semibold lg:block">portfolio</a>
-        <a href="/projects" class="hidden font-league-spartan font-semibold lg:block">projects</a>
+        <a href="/about-me" class="hidden font-league-spartan font-semibold text-white text-xl lg:block">about me</a>
+        <a href="/portfolio" class="hidden font-league-spartan font-semibold text-white text-xl lg:block">portfolio</a>
+        <a href="/projects" class="hidden font-league-spartan font-semibold text-white text-xl lg:block">projects</a>
     </div>
 
 </nav>

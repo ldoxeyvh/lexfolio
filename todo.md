@@ -30,9 +30,10 @@
   - debug unmoving svg on home page reload from another page 
     - this may be a preload optimization issue, could try further with onMount to ensure
       reactivity gets loaded after navigation to the page?
-  - expanding triple-shadow on hover for home page using css transitions
   - hamburger drop down turns nav yellow and expands down on mobile
   - repelling/springy star-type background on desktop
+  - convert hover css animation to tailwind
+  - nav hover/active page makes black outline, figure somethign out
 
 ## Nav
   - basic placeholder hamburger menu on mobile

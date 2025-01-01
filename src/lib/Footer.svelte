@@ -11,7 +11,7 @@
  let { pages = [] }: Props = $props();
 </script>
 
-<footer class="grid grid-cols-3 gap-2 grid-rows-5 w-full">
+<footer class="grid grid-cols-3 gap-2 grid-rows-5 w-full p-2">
     <div class="grid grid-rows-4 gap-1 py-1 justify-items-center rounded-xl bg-orange-500 row-span-5">
         <a href="/" class="font-nabla text-white text-2xl">home</a>
         <a href="/portfolio" class="font-nabla text-white text-2xl">portfolio</a>
