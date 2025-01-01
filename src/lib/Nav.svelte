@@ -21,9 +21,18 @@
     </a>
     <div class="flex flex-row-reverse gap-8 items-center">
         <span class="ml-auto self-center lg:hidden">ham</span>
-        <a href="/about-me" class="hidden font-league-spartan font-semibold text-white text-xl lg:block">about me</a>
-        <a href="/portfolio" class="hidden font-league-spartan font-semibold text-white text-xl lg:block">portfolio</a>
-        <a href="/projects" class="hidden font-league-spartan font-semibold text-white text-xl lg:block">projects</a>
+        <a href="/about-me" class=
+            "shadow-md shadow-orange-500 active:shadow-inner p-1 rounded-xl hidden font-league-spartan 
+            font-semibold text-white text-xl lg:block"
+            >about me</a>
+        <a href="/portfolio" class=
+            "shadow-md shadow-orange-500 active:shadow-inner p-1 rounded-xl hidden font-league-spartan 
+            font-semibold text-white text-xl lg:block"
+            >portfolio</a>
+        <a href="/projects" class=
+            "shadow-md shadow-orange-500 active:shadow-inner p-1 rounded-xl hidden font-league-spartan
+            font-semibold text-white text-xl lg:block"
+            >projects</a>
     </div>
 
 </nav>
