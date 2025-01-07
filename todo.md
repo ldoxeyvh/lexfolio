@@ -13,11 +13,10 @@
 
 ## Mobile
   - refactor home page to mobile first on new design
-  - implement basic mobile design for `graphic design` page
-  - convert current pages/components to mobile-first responsive
 
 # Desktop
-  - convert mobile pages to desktop
+  - convert projects page to desktop
+  - convert portfolio page to desktop
 
 ## Projects Page(s)
   - implement projects pages
@@ -40,6 +39,7 @@
   - 
 
 ## Misc
+  - remove `graphic design` page
   - figure out image hosting
   - add transition animations to page navigation
   - add hover animation to nav buttons

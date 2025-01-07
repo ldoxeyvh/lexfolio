@@ -30,7 +30,7 @@
     <link href="" rel="stylesheet">
 </svelte:head>
 
-<div class="grid drop-shadow-2xl justify-items-center m-auto max-w-[110rem] rounded-xl bg-neutral-50">
+<div class="grid drop-shadow-2xl justify-items-center m-auto max-w-[110rem] lg:rounded-xl bg-neutral-50">
     <Nav pages={navPages} />
 
     <main class="min-h-svh"><slot /></main>
@@ -40,6 +40,6 @@
 
 <style>
     :global(html) {
-        @apply bg-emerald-100
+        @apply lg:bg-emerald-100
     }
 </style>
