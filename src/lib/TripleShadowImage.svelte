@@ -1,10 +1,10 @@
 <script lang="ts">
-    let { image, alt } = $props();
+    let { image, alt, classList } = $props();
 </script>
 
 <div class="triple-shadow-animate">
     <div class="rounded-xl p-3">
-        <img src={image} alt={alt} class="max-h-32 xl:max-h-48">
+        <img src={image} alt={alt} class={classList ? classList : "max-h-32 lg:max-h-48"}>
     </div>
 </div>
 

@@ -6,17 +6,16 @@
   - [Mobile](#mobile)
 - [Desktop](#desktop)
   - [Projects Page(s)](#projects-pages)
-  - [Interactivity/Animations](#interactivityanimations)
   - [Nav](#nav)
   - [Misc](#misc)
+  - [Interactivity/Animations](#interactivityanimations)
   - [Links!](#links)
 
 ## Mobile
   - refactor home page to mobile first on new design
 
 # Desktop
-  - convert projects page to desktop
-  - convert portfolio page to desktop
+  - convert about me page to desktop
 
 ## Projects Page(s)
   - implement projects pages
@@ -24,19 +23,8 @@
     - projects sub pages
   - make a project item component for ease of adding new projects
 
-## Interactivity/Animations
-  - [Konva](https://konvajs.org/docs/overview.html)
-  - debug unmoving svg on home page reload from another page 
-    - this may be a preload optimization issue, could try further with onMount to ensure
-      reactivity gets loaded after navigation to the page?
-  - hamburger drop down turns nav yellow and expands down on mobile
-  - repelling/springy star-type background on desktop
-  - convert hover css animation to tailwind
-  - nav hover/active page makes black outline, figure somethign out
-
 ## Nav
   - basic placeholder hamburger menu on mobile
-  - 
 
 ## Misc
   - remove `graphic design` page
@@ -49,6 +37,16 @@
   - make portfolio images clickable/expandable (ViewBox or whatever)
   - prevent image scraping on search engines
   - prevent images from being pulled directly from site?
+
+## Interactivity/Animations
+  - [Konva](https://konvajs.org/docs/overview.html)
+  - debug unmoving svg on home page reload from another page 
+    - this may be a preload optimization issue, could try further with onMount to ensure
+      reactivity gets loaded after navigation to the page?
+  - hamburger drop down turns nav yellow and expands down on mobile
+  - repelling/springy star-type background on desktop
+  - convert hover css animation to tailwind
+  - nav hover/active page makes black outline, figure somethign out
 
 ## Links!
 
