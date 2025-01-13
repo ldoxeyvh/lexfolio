@@ -34,29 +34,10 @@
             font-semibold text-white text-xl border border-orange-500 lg:block"
             >projects</a>
     </div>
-
 </nav>
 
-<!-- desktop nav (sm and above) -->
-<!-- <nav class="hidden sm:block bg-amber-400 rounded-full m-1 lg:p-4">    
-    <div class="container mx-auto flex justify-between items-center">
-        <div class=" text-lg font-bold flex lg:space-x-4">
-            <a href="">Alexsey daCosta</a>
-        </div>
-        <ul class="flex lg:space-x-4 lg:h-full">
-            {#each pages as page: Page}
-                <li class="text-sm lg:text-md">
-                    <a 
-                    class="hover:text-orange-400" 
-                    class:text-orange-400={currentPathname === page.route}
-                    href={page.route}
-                    >
-                        {page.label}
-                    </a>
-                </li>
-            {/each}
-        </ul>
-    </div>    
-</nav> -->
+<div>
+    
+</div>
 
 
