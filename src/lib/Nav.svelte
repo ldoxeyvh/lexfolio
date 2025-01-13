@@ -1,4 +1,4 @@
-q<script lang="ts">
+<script lang="ts">
     import type { Page } from '$lib/shared'
     import { page } from '$app/stores';
 
@@ -37,7 +37,7 @@ q<script lang="ts">
 </nav>
 
 <div>
-
+    
 </div>
 
 
