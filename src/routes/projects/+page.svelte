@@ -13,14 +13,14 @@
         <!-- <div class="p-4 rounded-xl triple-shadow">
             <img src={Botanical} alt="" class="max-w-full max-h-full object-contain">
         </div> -->
-        <TripleShadowImage image={Botanical} alt="" classList="max-h-32 lg:max-h-48"/>
+        <TripleShadowImage image={Botanical} alt="" classList=""/>
         <span class="font-league-spartan font-normal text-center">Botanical Gardens Redesign</span>
     </a>
     <a href="/projects/environmental-riso" class="grid grid-rows-2 gap-6 justify-items-center">
         <!-- <div class="p-4 rounded-xl triple-shadow">
             <img src={Environmental} alt="" class="max-w-full max-h-full object-contain">
         </div> -->
-        <TripleShadowImage image={Environmental} alt="" classList="max-h-32 lg:max-h-48"/>
+        <TripleShadowImage image={Environmental} alt="" classList=""/>
         <span class="font-league-spartan font-normal text-center">Enivronmental RISO Project</span>
     </a>
 </div>

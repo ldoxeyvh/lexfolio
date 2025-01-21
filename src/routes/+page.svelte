@@ -7,24 +7,33 @@
 </script>
 
 <div class="w-full my-12 grid grid-cols-1 gap-y-10 lg:gap-y-32 justify-items-center">
-    <span class="font-nabla text-8xl md:text-9xl lg:text-[10rem] xl:text-[14rem] text-white text-outline text-center text-triple-shadow">
-        ALEXSEY DACOSTA
-    </span>
-    <div class="grid grid-cols-2 grid-rows-2 lg:grid-cols-3 gap-10 lg:gap-20 justify-items-center">
-        <a href="/portfolio" class="grid justify-items-center gap-y-4">
+    <div class="grid grid-cols-1 gap-4">
+        <span class="lg:pe-96 font-nabla text-8xl md:text-9xl lg:text-[10rem] xl:text-[14rem] text-white text-outline text-center text-triple-shadow">
+            ALEXSEY
+        </span>
+        <span class="lg:ps-96 font-nabla text-8xl md:text-9xl lg:text-[10rem] xl:text-[14rem] text-white text-outline text-center text-triple-shadow">
+            DACOSTA
+        </span>
+    </div>
+    
+    <div class="grid grid-cols-2 grid-rows-2 lg:grid-cols-10 lg:grid-rows-7 gap-10 lg:gap-x-10 lg:gap-y-0 justify-items-center lg:w-full lg:px-20">
+        <a href="/portfolio" class="grid lg:grid-rows-8 justify-items-center gap-y-4 lg:col-span-6 lg:row-span-5 lg:w-full lg:h-full">
             <!-- <div class="triple-shadow rounded-xl p-3">
                 <img src={placeholder} alt='' class="max-h-32 xl:max-h-48"/>
             </div> -->
-            <TripleShadowImage image={placeholder} alt="" />
-            <Popout text={"portfolio"} size={"3xl"}/>
+            <TripleShadowImage image="" alt="" classList="row-span-7 lg:w-full lg:h-full"/>
+            <!-- <Popout text={"portfolio"} size={"3xl"}/> -->
+            <span class="font-league-spartan text-orange-500 text-4xl tracking-wider font-black justify-self-start">portfolio</span>
         </a>
-        <a href="/about-me" class="grid justify-items-center gap-y-4">
-            <TripleShadowImage image={placeholder} alt="" />
-            <Popout text={"about me"} size={"3xl"}/>
+        <a href="/about-me" class="grid lg:grid-rows-5 justify-items-center gap-y-4 lg:col-span-4 lg:row-span-4 lg:w-full lg:h-full">
+            <TripleShadowImage image="" alt="" classList="row-span-4 lg:w-full lg:h-full"/>
+            <!-- <Popout text={"about me"} size={"3xl"}/> -->
+            <span class="font-league-spartan text-orange-500 text-4xl tracking-wider font-black text-outline">about me</span>
         </a>
-        <a href="/projects" class="col-span-2 lg:col-span-1 grid justify-items-center gap-y-4">
-            <TripleShadowImage image={placeholder} alt="" />
-            <Popout text={"projects"} size={"3xl"}/>
+        <a href="/projects" class="grid lg:grid-rows-4 col-span-2 justify-items-center gap-y-4 lg:col-span-3 lg:row-span-3 lg:w-full lg:h-full">
+            <TripleShadowImage image="" alt="" classList="row-span-3 lg:w-full lg:h-full"/>
+            <!-- <Popout text={"projects"} size={"3xl"}/> -->
+            <span class="font-league-spartan text-orange-500 text-4xl tracking-wider font-black text-outline">projects</span>
         </a>
     </div>
 </div>

@@ -25,27 +25,27 @@
 </script>
 
 <nav class="w-full">
-    <div class="grid grid-cols-2 p-2 h-16 bg-orange-400 w-full lg:rounded-xl">
+    <div class="grid grid-cols-2 p-2 h-16 lg:h-24 bg-orange-400 w-full lg:rounded-xl">
         <a class="flex items-center gap-2" href="/">
             <img class="h-10" src="{Flower}" alt="flower logo">
             <span class="place-self-center font-league-spartan font-semibold text-white text-xl leading-4">Alexsey daCosta</span>
         </a>
-        <div class="flex flex-row-reverse gap-8 items-center">
+        <div class="flex flex-row-reverse gap-8 items-center mx-8">
             <button class="lg:hidden" onclick={toggleDropdown}>
                 <img class="h-10" src={Hamburger} alt="">
             </button>
             <!-- <span class="ml-auto self-center lg:hidden">ham</span> -->
             <a href="/about-me" class=
-                "shadow-md shadow-orange-500 active:shadow-inner p-1 rounded-xl hidden font-league-spartan
-                font-semibold text-white text-xl border border-orange-500 lg:block"
+                "hidden font-league-spartan
+                font-semibold text-white text-xl lg:block"
                 >about me</a>
             <a href="/portfolio" class=
-                "shadow-md shadow-orange-500 active:shadow-inner p-1 rounded-xl hidden font-league-spartan
-                font-semibold text-white text-xl border border-orange-500 lg:block"
+                "hidden font-league-spartan
+                font-semibold text-white text-xl lg:block"
                 >portfolio</a>
             <a href="/projects" class=
-                "shadow-md shadow-orange-500 active:shadow-inner p-1 rounded-xl hidden font-league-spartan
-                font-semibold text-white text-xl border border-orange-500 lg:block"
+                "hidden font-league-spartan
+                font-semibold text-white text-xl lg:block"
                 >projects</a>
         </div>
     </div>
