@@ -25,7 +25,7 @@
 </script>
 
 <nav class="w-full">
-    <div class="grid grid-cols-2 p-2 h-16 lg:h-24 bg-orange-400 w-full lg:rounded-xl">
+    <div class="grid grid-cols-2 p-2 h-16 lg:h-24 bg-orange-400 w-full lg:rounded-xl vertical-emerald-shadow rounded-b-xl">
         <a class="flex items-center gap-2" href="/">
             <img class="h-10" src="{Flower}" alt="flower logo">
             <span class="place-self-center font-league-spartan font-semibold text-white text-xl leading-4">Alexsey daCosta</span>

@@ -28,12 +28,12 @@
         <a href="/about-me" class="grid lg:grid-rows-5 justify-items-center gap-y-4 lg:col-span-4 lg:row-span-4 lg:w-full lg:h-full">
             <TripleShadowImage image="" alt="" classList="row-span-4 lg:w-full lg:h-full"/>
             <!-- <Popout text={"about me"} size={"3xl"}/> -->
-            <span class="font-league-spartan text-orange-500 text-4xl tracking-wider font-black text-outline">about me</span>
+            <span class="font-league-spartan text-orange-500 text-4xl tracking-wider font-black">about me</span>
         </a>
         <a href="/projects" class="grid lg:grid-rows-4 col-span-2 justify-items-center gap-y-4 lg:col-span-3 lg:row-span-3 lg:w-full lg:h-full">
             <TripleShadowImage image="" alt="" classList="row-span-3 lg:w-full lg:h-full"/>
             <!-- <Popout text={"projects"} size={"3xl"}/> -->
-            <span class="font-league-spartan text-orange-500 text-4xl tracking-wider font-black text-outline">projects</span>
+            <span class="font-league-spartan text-orange-500 text-4xl tracking-wider font-black">projects</span>
         </a>
     </div>
 </div>
