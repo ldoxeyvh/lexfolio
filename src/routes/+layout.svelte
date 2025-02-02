@@ -1,6 +1,4 @@
 <script lang="ts">
-    export const prerender = true;
-    
     import '../app.css'
     import Nav from '$lib/Nav.svelte';
     import Footer from '$lib/Footer.svelte';
