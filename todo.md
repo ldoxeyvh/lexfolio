@@ -27,6 +27,8 @@
   - basic placeholder hamburger menu on mobile
 
 ## Misc
+  - add a build test script before pushing to github?
+  - add a fallback page to replace github default
   - remove `graphic design` page
   - figure out image hosting
   - add transition animations to page navigation
