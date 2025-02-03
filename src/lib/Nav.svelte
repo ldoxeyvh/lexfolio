@@ -3,6 +3,7 @@
 
     import type { Page } from '$lib/shared';
     import { page } from '$app/stores';
+    import { base } from '$app/paths';
 
     import Flower from '$lib/assets/testflower-01.svg';
     import Hamburger from '$lib/assets/menu-burger.svg';
@@ -25,7 +26,7 @@
 </script>
 
 <nav class="w-full">
-    <div class="grid grid-cols-2 p-2 h-16 lg:h-24 bg-orange-400 w-full lg:rounded-xl vertical-emerald-shadow rounded-b-xl">
+    <div class="grid grid-cols-2 p-2 h-16 lg:h-24 bg-emerald-200 w-full lg:vertical-emerald-shadow rounded-b-xl">
         <a class="flex items-center gap-2" href="/">
             <img class="h-10" src="{Flower}" alt="flower logo">
             <span class="place-self-center font-league-spartan font-semibold text-white text-xl leading-4">Alexsey daCosta</span>
@@ -35,15 +36,15 @@
                 <img class="h-10" src={Hamburger} alt="">
             </button>
             <!-- <span class="ml-auto self-center lg:hidden">ham</span> -->
-            <a href="/about-me" class=
+            <a href="{`${base}/about-me`}" class=
                 "hidden font-league-spartan
                 font-semibold text-white text-xl lg:block"
                 >about me</a>
-            <a href="/portfolio" class=
+            <a href="{`${base}/portfolio`}" class=
                 "hidden font-league-spartan
                 font-semibold text-white text-xl lg:block"
                 >portfolio</a>
-            <a href="/projects" class=
+            <a href="{`${base}/projects`}" class=
                 "hidden font-league-spartan
                 font-semibold text-white text-xl lg:block"
                 >projects</a>
