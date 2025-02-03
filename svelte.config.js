@@ -19,10 +19,9 @@ const config = {
 			strict: true
 		}),
 		paths: {
-			base: process.env.GITHUB_ACTIONS ? '/lexfolio' : '/test'
+			base: process.env.GITHUB_ACTIONS ? '/lexfolio' : '/dev'
 		},
 		prerender: {
-			handleHttpError: 'warn'
 		}
 	},
 
