@@ -18,7 +18,7 @@
             drop-shadow(4px 4px var(--amber-400))
             drop-shadow(4px 4px var(--emerald-200)); */
         box-shadow: 4px 4px var(--amber-400), 8px 8px var(--emerald-200);
-        transition: x
+        transition:
             top 0.2s ease,
             left 0.2s ease,
             box-shadow 0.2s ease;
