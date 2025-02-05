@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'nabla': ["'Nabla'", 'system-ui'],
+        'nabla': ["'Viga'", 'system-ui'],
         'league-spartan': ["'League Spartan Variable'", 'system-ui'],
         'inter': ['Inter', 'system-ui']
       },
