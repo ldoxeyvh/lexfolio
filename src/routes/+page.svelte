@@ -9,10 +9,10 @@
 
 <div class="w-full my-12 grid grid-cols-1 gap-y-10 lg:gap-y-32 justify-items-center">
     <div class="grid grid-cols-1 gap-4">
-        <span class="lg:pe-96 font-honk font-normal text-7xl md:text-9xl lg:text-[10rem] xl:text-[14rem] text-white text-outline text-center text-triple-shadow">
+        <span class="lg:pe-96 font-rampart font-normal text-7xl md:text-9xl lg:text-[10rem] xl:text-[14rem] text-white text-outline text-center text-triple-shadow">
             ALEXSEY
         </span>
-        <span class="lg:ps-96 font-honk font-normal text-7xl md:text-9xl lg:text-[10rem] xl:text-[14rem] text-white text-outline text-center text-triple-shadow">
+        <span class="lg:ps-96 font-rampart font-normal text-7xl md:text-9xl lg:text-[10rem] xl:text-[14rem] text-white text-outline text-center text-triple-shadow">
             DACOSTA
         </span>
     </div>

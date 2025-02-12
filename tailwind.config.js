@@ -7,7 +7,8 @@ export default {
         'nabla': ["'Nabla'", 'system-ui'],
         'league-spartan': ["'League Spartan Variable'", 'system-ui'],
         'inter': ['Inter', 'system-ui'],
-        'honk': ["'Honk'", 'system-ui']
+        'honk': ["'Honk'", 'system-ui'],
+        'rampart': ["'Rampart One'", 'system-ui']
       },
       boxShadow: {
         'around': '0px 0px 10px 0 rgb(0 0 0 / 0.1)'
