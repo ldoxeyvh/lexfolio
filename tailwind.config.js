@@ -4,9 +4,10 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'nabla': ["'Viga'", 'system-ui'],
+        'nabla': ["'Nabla'", 'system-ui'],
         'league-spartan': ["'League Spartan Variable'", 'system-ui'],
-        'inter': ['Inter', 'system-ui']
+        'inter': ['Inter', 'system-ui'],
+        'honk': ["'Honk'", 'system-ui']
       },
       boxShadow: {
         'around': '0px 0px 10px 0 rgb(0 0 0 / 0.1)'

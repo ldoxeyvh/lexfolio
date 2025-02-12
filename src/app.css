@@ -6,10 +6,13 @@
 
 :root {
     --orange-500:#f97316;
+    --orange-600: #ea580c;
     --emerald-200:#a7f3d0;
     --amber-400:#fbbf24;
     --amber-300: #fcd34d;
     --yellow-300: #fde047;
+    --yellow-500: #eab308;
+    --lime-800: #3f6212;
 }
 
 .text-outline {
@@ -23,22 +26,22 @@
 }
 
 .vertical-emerald-shadow {
-    filter: drop-shadow(0px 10px var(--emerald-200))
+    filter: drop-shadow(10px 10px var(--emerald-200))
 }
 
 .text-triple-shadow {
     filter: 
-            drop-shadow(4px 4px var(--orange-500)) /* removed */
-            drop-shadow(4px 4px var(--amber-400))
-            drop-shadow(4px 4px var(--emerald-200))
+            drop-shadow(4px 4px var(--yellow-500)) /* removed */
+            drop-shadow(4px 4px var(--orange-600))
+            drop-shadow(4px 4px var(--lime-800))
 }
 
 .triple-shadow {
-    background-color: var(--orange-500);
+    background-color: var(--yellow-500);
     filter: 
             /* drop-shadow(4px 4px var(--orange-500)) */ /* removed */
-            drop-shadow(4px 4px var(--amber-400))
-            drop-shadow(4px 4px var(--emerald-200))
+            drop-shadow(4px 4px var(--orange-600))
+            drop-shadow(4px 4px var(--lime-800))
 }
 
 .popout-orange-500 {

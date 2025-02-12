@@ -30,7 +30,7 @@
     <link href="" rel="stylesheet">
 </svelte:head>
 
-<div class="grid justify-items-center m-auto max-w-[110rem] lg:rounded-xl bg-neutral-50">
+<div class="grid justify-items-center m-auto lg:rounded-xl bg-orange-100">
     <Nav pages={navPages} />
 
     <main class="min-h-svh"><slot /></main>
@@ -39,7 +39,7 @@
 </div>
 
 <style>
-    :global(html) {
-        @apply lg:bg-emerald-200
-    }
+    /* :global(html) {
+        @apply lg:bg-yellow-500
+    } */
 </style>

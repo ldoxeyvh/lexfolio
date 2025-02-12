@@ -13,11 +13,11 @@
         position: relative;
         top: 0;
         left: 0;
-        background-color: var(--orange-500);
+        background-color: var(--yellow-500);
         /* filter: 
             drop-shadow(4px 4px var(--amber-400))
             drop-shadow(4px 4px var(--emerald-200)); */
-        box-shadow: 4px 4px var(--amber-400), 8px 8px var(--emerald-200);
+        box-shadow: 8px 8px var(--orange-600), 16px 16px var(--lime-800);
         transition:
             top 0.2s ease,
             left 0.2s ease,
@@ -28,8 +28,8 @@
         top: -10px;
         left: -10px;
         /* filter:
-            drop-shadow(15px 15px var(--amber-400))
-            drop-shadow(15px 15px var(--emerald-200)); */
-        box-shadow: 8px 8px var(--amber-400), 16px 16px var(--emerald-200);
+            drop-shadow(15px 15px var(--orange-600))
+            drop-shadow(15px 15px var(--lime-800)); */
+        box-shadow: 13px 13px var(--orange-600), 26px 26px var(--lime-800);
     }
 </style>
