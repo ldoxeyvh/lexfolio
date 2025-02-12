@@ -13,6 +13,7 @@
     --yellow-300: #fde047;
     --yellow-500: #eab308;
     --lime-800: #3f6212;
+    --lime-700: #4d7c0f;
 }
 
 .text-outline {
@@ -29,11 +30,18 @@
     filter: drop-shadow(10px 10px var(--emerald-200))
 }
 
-.text-triple-shadow {
+.text-triple-shadow-light {
     filter: 
-            drop-shadow(4px 4px var(--yellow-500)) /* removed */
-            drop-shadow(4px 4px var(--orange-600))
-            drop-shadow(4px 4px var(--lime-800))
+            drop-shadow(-4px 4px var(--yellow-500)) /* removed */
+            /* drop-shadow(4px 4px var(--orange-600)) */
+            /* drop-shadow(4px 4px var(--lime-800)) */
+}
+
+.text-triple-shadow-dark {
+    filter: 
+            drop-shadow(-4px 4px var(--yellow-500))
+            /* drop-shadow(4px 4px var(--orange-600)) */
+            /* drop-shadow(4px 4px var(--lime-800)) */
 }
 
 .triple-shadow {

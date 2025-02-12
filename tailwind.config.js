@@ -8,7 +8,10 @@ export default {
         'league-spartan': ["'League Spartan Variable'", 'system-ui'],
         'inter': ['Inter', 'system-ui'],
         'honk': ["'Honk'", 'system-ui'],
-        'rampart': ["'Rampart One'", 'system-ui']
+        'rampart': ["'Rampart One'", 'system-ui'],
+        'bungee-shade': ["'Bungee Shade'", 'system-ui'],
+        'righteous': ["'Righteous'", 'system-ui'],
+        'viga': ["'Viga'", 'system-ui'],
       },
       boxShadow: {
         'around': '0px 0px 10px 0 rgb(0 0 0 / 0.1)'

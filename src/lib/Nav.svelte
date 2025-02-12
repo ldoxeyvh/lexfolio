@@ -25,11 +25,10 @@
 
 </script>
 
-<nav class="w-full bg-lime-800 grid grid-cols-1 justify-items-center">
+<nav class="w-full bg-lime-900 grid grid-cols-1 justify-items-center">
     <div class="grid grid-cols-2 p-2 h-16 lg:h-24 w-full max-w-[110rem]">
-        <a href="{base}" class="flex items-center gap-2">
-            <img class="h-10" src="{Flower}" alt="flower logo">
-            <span class="place-self-center font-league-spartan font-semibold text-white text-xl leading-4">Alexsey daCosta</span>
+        <a href="{base}" class="flex items-center gap-2">   
+            <span class="place-self-center font-righteous font-normal text-orange-100 text-xl leading-4">Alexsey daCosta</span>
         </a>
         <div class="flex flex-row-reverse gap-8 items-center mx-8">
             <button class="lg:hidden" onclick={toggleDropdown}>
@@ -37,16 +36,16 @@
             </button>
             <!-- <span class="ml-auto self-center lg:hidden">ham</span> -->
             <a href="{`${base}/about-me`}" class=
-                "hidden font-league-spartan
-                font-semibold text-white text-xl lg:block"
+                "hidden font-righteous
+                font-normal text-orange-100 text-xl lg:block"
                 >about me</a>
             <a href="{`${base}/portfolio`}" class=
-                "hidden font-league-spartan
-                font-semibold text-white text-xl lg:block"
+                "hidden font-righteous
+                font-normal text-orange-100 text-xl lg:block"
                 >portfolio</a>
             <a href="{`${base}/projects`}" class=
-                "hidden font-league-spartan
-                font-semibold text-white text-xl lg:block"
+                "hidden font-righteous
+                font-normal text-orange-100 text-xl lg:block"
                 >projects</a>
         </div>
     </div>

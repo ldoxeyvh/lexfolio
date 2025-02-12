@@ -17,11 +17,11 @@
     <!-- Filler blocks at large sizes -->
     <div class="hidden lg:block lg:flex-grow rounded-xl bg-orange-600"></div>
     <div class="grid grid-cols-3 gap-2 grid-rows-5 w-full max-w-screen-lg">
-        <div class="grid grid-rows-4 gap-1 py-1 justify-items-center rounded-xl bg-lime-800 row-span-5">
-            <a href="{`${base}/`}" class="font-nabla text-white text-2xl transition-all hover:tracking-widest">home</a>
-            <a href="{`${base}/portfolio`}" class="font-nabla text-white text-2xl transition-all hover:tracking-widest">portfolio</a>
-            <a href="{`${base}/about-me`}" class="font-nabla text-white text-2xl transition-all hover:tracking-widest">about me</a>
-            <a href="{`${base}/projects`}" class="font-nabla text-white text-2xl transition-all hover:tracking-widest">projects</a>
+        <div class="grid grid-rows-4 gap-1 py-1 justify-items-center rounded-xl bg-lime-700 row-span-5">
+            <a href="{`${base}/`}" class="font-righteous text-orange-100 text-2xl transition-all hover:tracking-widest">home</a>
+            <a href="{`${base}/portfolio`}" class="font-righteous text-orange-100 text-2xl transition-all hover:tracking-widest">portfolio</a>
+            <a href="{`${base}/about-me`}" class="font-righteous text-orange-100 text-2xl transition-all hover:tracking-widest">about me</a>
+            <a href="{`${base}/projects`}" class="font-righteous text-orange-100 text-2xl transition-all hover:tracking-widest">projects</a>
         </div>
         <div class="grid grid-cols-3 rounded-xl bg-yellow-500 col-span-2 row-span-2 place-items-center">
             <a href="https://www.instagram.com/alexseydc/">
@@ -35,10 +35,10 @@
             </a>
         </div>
         <div class="grid place-items-center col-span-2 row-span-3 rounded-xl bg-orange-600">
-            <span class="font-nabla text-6xl text-orange-100 text-center mb-3 transition-all hover:tracking-widest">
+            <span class="font-righteous text-6xl text-orange-100 text-center mb-3 transition-all hover:tracking-widest">
                 resume
             </span>
         </div>
     </div>
-    <div class="hidden lg:block lg:flex-grow rounded-xl bg-lime-800"></div>
+    <div class="hidden lg:block lg:flex-grow rounded-xl bg-lime-700"></div>
 </footer>
