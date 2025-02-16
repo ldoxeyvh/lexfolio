@@ -28,6 +28,7 @@
 
 <svelte:head>
     <link href="" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0e473a1349.js" crossorigin="anonymous"></script>
 </svelte:head>
 
 <div class="grid justify-items-center m-auto lg:rounded-xl bg-orange-100">
