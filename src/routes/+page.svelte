@@ -3,6 +3,12 @@
     import TripleShadowImage from '$lib/TripleShadowImage.svelte';
     import placeholder from '$lib/assets/portfolio/matthaei_square.png';
     import { base } from '$app/paths';
+    import lgPortfolioImg from '$lib/assets/homepage/NEW_PORTFOLIO_DESKTOP.svg';
+    import smPortfolioImg from '$lib/assets/homepage/PORTFOLIO_MOBILE.svg';
+    import lgProjectsImg from '$lib/assets/homepage/NEW_PROJECTS_DESKTOP.svg'
+    import smProjectsImg from '$lib/assets/homepage/PROJECTS_MOBILE.svg'
+    import lgAboutImg from '$lib/assets/homepage/NEW_ABOUTME_DESKTOP.svg'
+    import smAboutImg from '$lib/assets/homepage/ABOUTME_MOBILE.svg'
     let count = $state(0);
     let hover = $state(false);
 </script>
@@ -22,17 +28,22 @@
             <!-- <div class="triple-shadow rounded-xl p-3">
                 <img src={placeholder} alt='' class="max-h-32 xl:max-h-48"/>
             </div> -->
-            <TripleShadowImage image="" alt="" classList="lg:row-span-7 min-w-52 min-h-48 lg:w-full lg:h-full"/>
+            <TripleShadowImage image={lgPortfolioImg} alt="" classList="hidden xl:block lg:row-span-7 min-w-52 min-h-48 lg:w-full lg:h-full"/>
+            <TripleShadowImage image={smPortfolioImg} alt="" classList="xl:hidden lg:row-span-7 min-w-52 min-h-48 lg:w-full lg:h-full"/>
             <!-- <Popout text={"portfolio"} size={"3xl"}/> -->
             <span class="font-righteous transition-all group-hover:tracking-widest text-lime-700 text-4xl tracking-wider font-black justify-self-center">portfolio</span>
         </a>
         <a href="{`${base}/about-me`}" class="grid lg:grid-rows-5 justify-items-center group gap-y-6 lg:col-span-4 lg:row-span-4 w-full lg:h-full">
-            <TripleShadowImage image="" alt="" classList="lg:row-span-4 min-w-52 min-h-48 lg:w-full lg:h-full"/>
+            <TripleShadowImage image={lgAboutImg} alt="" classList="hidden xl:block lg:row-span-4 min-w-52 min-h-48 lg:w-full lg:h-full"/>
+            <TripleShadowImage image={smAboutImg} alt="" classList="xl:hidden lg:row-span-4 min-w-52 min-h-48 lg:w-full lg:h-full"/>
+            
             <!-- <Popout text={"about me"} size={"3xl"}/> -->
             <span class="font-righteous transition-all group-hover:tracking-widest text-lime-700 text-4xl tracking-wider font-black">about me</span>
         </a>
         <a href="{`${base}/projects`}" class="grid lg:grid-rows-4 justify-items-center group gap-y-6 lg:col-span-3 lg:row-span-3 w-full lg:h-full">
-            <TripleShadowImage image="" alt="" classList="lg:row-span-3 min-w-52 min-h-48 lg:w-full lg:h-full"/>
+            <TripleShadowImage image={lgProjectsImg} alt="" classList="hidden xl:block lg:row-span-3 min-w-52 min-h-48 lg:w-full lg:h-full"/>
+            <TripleShadowImage image={smProjectsImg} alt="" classList="xl:hidden lg:row-span-3 min-w-52 min-h-48 lg:w-full lg:h-full"/>
+            
             <!-- <Popout text={"projects"} size={"3xl"}/> -->
             <span class="font-righteous transition-all group-hover:tracking-widest text-lime-700 text-4xl tracking-wider font-black">projects</span>
         </a>

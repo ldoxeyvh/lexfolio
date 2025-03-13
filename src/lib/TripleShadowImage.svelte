@@ -2,9 +2,9 @@
     let { image, alt, classList, hover = false } = $props();
 </script>
 
-<div class={ classList + "h-full w-full"}>
-    <div class="triple-shadow-animate class:hover={hover} rounded-xl p-3 h-full w-full">
-        <img src={image} alt={alt} class="max-h-32 lg:max-h-48">
+<div class={ classList + " w-full"}>
+    <div class="triple-shadow-animate class:hover={hover} rounded-xl p-3 h-full w-full grid justify-items-center">
+        <img src={image} alt={alt} class="">
     </div>
 </div>
 

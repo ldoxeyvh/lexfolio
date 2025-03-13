@@ -13,7 +13,7 @@
 </script>
 
 
-<div class="grid grid-cols-1 justify-items-center m-6">
+<div class="grid grid-cols-1 justify-items-center my-8">
     <span class="font-bungee-shade text-5xl text-lime-700 font-semibold">portfolio</span>
 </div>
 <div class="columns-2 lg:columns-4 gap-4 space-y-8 m-4">
