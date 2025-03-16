@@ -1,15 +1,14 @@
 <script lang="ts">
-    let { image, alt, classList, hover = false } = $props();
+    let { image, alt, classList, hover } = $props();
+    let tripleShadow = $derived(hover ? "triple-shadow-hover" : "")
 </script>
 
 <div class={ classList + " w-full"}>
-    <div class="triple-shadow-animate class:hover={hover} rounded-xl p-3 h-full w-full grid justify-items-center">
-        <img src={image} alt={alt} class="">
-    </div>
+    <img src={image} alt={alt} class="triple-shadow-no-hover {tripleShadow} rounded-xl p-3 h-full w-full">
 </div>
 
 <style>
-    .triple-shadow-animate {
+    .triple-shadow-no-hover {
         position: relative;
         top: 0;
         left: 0;
@@ -24,7 +23,7 @@
             box-shadow 0.2s ease;
     }
 
-    .triple-shadow-animate:hover {
+    .triple-shadow-hover {
         top: -10px;
         left: -10px;
         /* filter:
