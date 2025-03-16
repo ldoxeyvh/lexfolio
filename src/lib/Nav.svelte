@@ -31,11 +31,13 @@
 
 <nav class="w-full bg-lime-900 grid grid-cols-1 justify-items-center">
     <div class="grid grid-cols-2 p-2 h-16 lg:h-24 w-full max-w-[110rem] px-4">
-        <a href="{base}" class="flex items-center gap-2">   
-            <span class="place-self-center font-righteous font-normal text-orange-100 text-xl leading-4">
-                LOGO
-            </span>
-        </a>
+        <div class="grid justify-items-start">
+            <a href="{base}" class="flex items-center gap-2">
+                <span class="place-self-center font-righteous font-normal text-orange-100 text-xl leading-4">
+                    LOGO
+                </span>
+            </a>
+        </div>
         <div class="flex flex-row-reverse gap-8 items-center ">
             <button class="lg:hidden" onclick={toggleDropdown} aria-label="navDropdown">
                 {#if isDropdownHidden}
