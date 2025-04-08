@@ -4,6 +4,7 @@
     import { afterNavigate } from '$app/navigation';
 
     import type { Page } from '$lib/shared';
+    import Logo from '$lib/assets/homepage/AJD_LOGO.svg'
     import { page } from '$app/stores';
     import { base } from '$app/paths';
 
@@ -33,9 +34,8 @@
     <div class="grid grid-cols-2 p-2 h-16 lg:h-24 w-full max-w-[110rem] px-4">
         <div class="grid justify-items-start">
             <a href="{base}" class="flex items-center gap-2">
-                <span class="place-self-center font-righteous font-normal text-orange-100 text-xl leading-4">
-                    LOGO
-                </span>
+                <!-- font-righteous font-normal text-orange-100 text-xl leading-4 -->
+                <img class="place-self-center h-12 lg:h-20" src={Logo} alt="logo"/>
             </a>
         </div>
         <div class="flex flex-row-reverse gap-8 items-center ">
@@ -62,8 +62,29 @@
         </div>
     </div>
     {#if !isDropdownHidden}
-        <div transition:slide={{duration: 500, easing:cubicInOut }} class=" relative h-96 bg-lime-800 w-full">
-            
+        <div transition:slide={{duration: 500, easing:cubicInOut }} class="lg:hidden relative bg-lime-900 w-full">
+            <div class="p-2 grid grid-cols-1 justify-items-center gap-2">
+                <a href="{`${base}/`}" class=
+                "font-righteous hover:tracking-widest bg-amber-500 rounded-xl
+                font-normal text-orange-100 text-xl w-full md:w-1/2 text-center 
+                p-2 transition-all"
+                >home</a>
+                <a href="{`${base}/projects`}" class=
+                "font-righteous hover:tracking-widest bg-amber-500 rounded-xl
+                font-normal text-orange-100 text-xl w-full md:w-1/2 text-center 
+                p-2 transition-all"
+                >projects</a>
+                <a href="{`${base}/portfolio`}" class=
+                "font-righteous hover:tracking-widest bg-amber-500 rounded-xl
+                font-normal text-orange-100 text-xl w-full md:w-1/2 text-center 
+                p-2 transition-all"
+                >portfolio</a>
+                <a href="{`${base}/about-me`}" class=
+                "font-righteous hover:tracking-widest bg-amber-500 rounded-xl
+                font-normal text-orange-100 text-xl w-full md:w-1/2 text-center 
+                p-2 transition-all"
+                >about me</a>
+            </div>
         </div>
     {/if }
 </nav>

@@ -3,8 +3,8 @@
     let tripleShadow = $derived(hover ? "triple-shadow-hover" : "")
 </script>
 
-<div class={ classList + " w-full"}>
-    <img src={image} alt={alt} class="triple-shadow-no-hover {tripleShadow} rounded-xl p-3 h-full w-full">
+<div class={ classList + " w-full h-full"}>
+    <img src={image} alt={alt} class="triple-shadow-no-hover {tripleShadow} rounded-xl p-3 w-full">
 </div>
 
 <style>
