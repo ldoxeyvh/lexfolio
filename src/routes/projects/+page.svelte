@@ -16,13 +16,13 @@
         <span class="font-league-spartan font-normal text-center">Botanical Gardens Redesign</span>
     </a> -->
     <div class="">
-        <ImgLink text="Botanical Gardens Redesign" href={`${base}/projects/botanical-gardens`} sm={Botanical} lg={Botanical} sz="2xl"/>
+        <ImgLink text="Botanical Gardens Redesign" href={`${base}/projects/botanical-gardens`} sm={Botanical} lg={Botanical} sz="text-2xl"/>
     </div>
     <!-- <a href="{`${base}/projects/environmental-riso`}" class="grid grid-rows-2 gap-6 justify-items-center">
         <TripleShadowImage image={Environmental} alt="" classList="" hover=false/>
         <span class="font-league-spartan font-normal text-center">Enivronmental RISO Project</span>
     </a> -->
     <div class="">
-        <ImgLink text="Environmental RISO Project" href={`${base}/projects/environmental-riso`} sm={Environmental} lg={Environmental} sz="2xl"/>
+        <ImgLink text="Environmental RISO Project" href={`${base}/projects/environmental-riso`} sm={Environmental} lg={Environmental} sz="text-2xl"/>
     </div>
 </div>
